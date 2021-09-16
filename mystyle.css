@@ -13,3 +13,7 @@ body{
     font-weight: bold;
     font-size: larger;
 }
+
+#title{
+    color: red;
+}
