@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+}
+
+.greenbox{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.link{
+    font-weight: bold;
+    font-size: larger;
+}
