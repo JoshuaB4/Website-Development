@@ -47,3 +47,20 @@ header {
 .main {
     text-align: center;
 }
+
+.title {
+    color: lightblue;
+}
+
+input[type=submit] {
+    background-color: #b601b6;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 32px;
+    color: white;
+}
+
+form {
+    background-color: #33b5e5;
+}    
