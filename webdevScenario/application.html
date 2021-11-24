@@ -7,6 +7,11 @@
     <title>Application Form</title>
     <link rel="stylesheet" type="text/css" href="navigation.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function alertBox() {
+            alert("Your application has been submitted.")
+        }
+    </script>
 </head>
 
 <body>
@@ -17,11 +22,18 @@
     </ul>
     
     <h2 class="title col-12 col-s-12">Application Form</h2> <!--col- doesnt't work, fix later-->
+    <p>Here you will find the online application form for our [job]. Please fill out all the information to the best of your ability:</p>
 
     <form>
-        <label for="name">Enter your name:</label>
+        <label for="name">Enter your full name:</label>
         <input type="text" id="name" name="name"><br>
-        <input type="submit" value="Submit">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+        <label for="number">Enter your telephone number:</label>
+        <input type="text" id="number" name="number"><br>
+        <label for="email">Enter email address:</label>
+        <!--<input type="submit" value="Submit">-->
+        <button onclick="alertBox()">Submit</button>
     </form>
     
 </body>

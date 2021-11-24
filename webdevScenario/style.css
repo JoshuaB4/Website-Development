@@ -61,6 +61,11 @@ input[type=submit] {
     color: white;
 }
 
-form {
-    background-color: #33b5e5;
-}    
+button{
+    background-color: #b601b6;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 32px;
+    color: white;
+}
