@@ -71,16 +71,16 @@ input[type=submit] {
     color: white;
 }
 
-button{
+.button{
     background-color: #b601b6;
     border: none;
     text-decoration: none;
     cursor: pointer;
-    padding: 16px 32px;
+    padding: 8px 16px;
     color: white;
 }
 
-button:hover:not(.active){
+.button:hover:not(.active){
     background-color: #800080;
 }
 
