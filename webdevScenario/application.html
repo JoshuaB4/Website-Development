@@ -7,11 +7,8 @@
     <title>Application Form</title>
     <link rel="stylesheet" type="text/css" href="navigation.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script>
-        function alertBox() {
-            alert("Your application has been submitted.")
-        }
-    </script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -21,20 +18,30 @@
         <li><a href="trainees.html">Trainees</a></li>
     </ul>
     
-    <h2 class="title col-12 col-s-12">Application Form</h2> <!--col- doesnt't work, fix later-->
-    <p>Here you will find the online application form for our [job]. Please fill out all the information to the best of your ability:</p>
+    <h2 class="main title">Application Form</h2>
 
-    <form>
-        <label for="name">Enter your full name:</label>
-        <input type="text" id="name" name="name"><br>
-        <label for="address">Address:</label>
-        <input type="text" id="address" name="address"><br>
-        <label for="number">Enter your telephone number:</label>
-        <input type="text" id="number" name="number"><br>
-        <label for="email">Enter email address:</label>
-        <input type="text" id="email" name="email"><br>
-        <!--<input type="submit" value="Submit">-->
-        <button onclick="alertBox()">Submit</button>
-    </form>
+    <div class="row">
+        <div class="col-3 col-s-3">
+            <p>Here you will find the online application form for our [job]. Please fill out all the information to the best of your ability:</p> 
+        </div>
+
+        <div class="col-7 col-s-7">
+            <form>
+                <label for="name">Enter your full name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="number">Enter your telephone number:</label>
+                <input type="text" id="number" name="number"><br><br>
+                <label for="email">Enter email address:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <!--<input type="submit" value="Submit">-->
+                <!--<button onclick="alertBox()">Submit</button>-->
+                <div class="popup" onclick="popup()">Submit
+                    <span class="popuptext" id="confirmPopup">Your application has been submitted</span>
+                </div>
+            </form>
+        </div>
+    </div>
     
 </body>
