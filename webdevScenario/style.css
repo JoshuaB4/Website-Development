@@ -69,3 +69,18 @@ button{
     padding: 16px 32px;
     color: white;
 }
+
+button:hover:not(.active){
+    background-color: #800080;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%; 
+    height: 40px;
+    background: #b601b6;
+}
